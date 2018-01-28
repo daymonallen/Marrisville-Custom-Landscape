@@ -1,0 +1,131 @@
+
+.view_primary {
+  width: 100%;
+  height: 100vh;
+}
+
+#view_a {
+  background: rgb(199,223,215);
+  background: -moz-linear-gradient(-45deg, rgba(199,223,215,1) 0%, rgba(27,181,127,1) 38%, rgba(22,146,103,1) 72%, rgba(16,110,77,1) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(199,223,215,1) 0%,rgba(27,181,127,1) 38%,rgba(22,146,103,1) 72%,rgba(16,110,77,1) 100%);
+  background: linear-gradient(135deg, rgba(199,223,215,1) 0%,rgba(27,181,127,1) 38%,rgba(22,146,103,1) 72%,rgba(16,110,77,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7dfd7', endColorstr='#106e4d',GradientType=1 );
+}
+
+.content-block {
+  background-color: rgba(49, 32, 32, .7);
+  color: white;
+  //width: 50%;
+  transform: translateY(-50%);
+  top: 50%;
+  position: absolute;
+}
+
+.content-body {
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.content-body > h2, p {
+  color: white;
+}
+
+
+
+#view_b {
+  background-color: blue;
+}
+
+#view_c {
+  background-color: red;
+}
+
+#view_d {
+  background-color: orange;
+}
+
+/* ==== [[ Section Views ]]==== */
+
+/*test ===============
+*/
+.col-align-right {
+  //background-color: #20891B;
+  float: right;
+}
+.col-align-left {
+  display: inline-block;
+  //background-color: orange;
+  
+}
+
+
+
+
+
+
+#page_landscape {
+  background-color: purple;
+  display: block;
+  position: absolute;
+  height: 90vh;
+  width: 100vw;
+  top: 40px;
+  right: 100vw;
+  z-index: 1;
+}
+
+#page_stone {
+  background-color: black;
+}
+
+#page_brick {
+  background-color: white
+}
+
+#page_artificial {
+  background-color: maroon;
+}
+
+#page_water {
+  background-color: darkmagenta;
+}
+
+#section-view {
+  //position: absolute;
+  height: 90vh;
+  width: 100%;
+  top: 40px;
+  z-index: 1;
+  display: block;
+  background-color: white;
+}
+
+.section-on {
+  height: 100vh;
+  width: 100%;
+  top: 40px;
+  z-index: 1;
+
+
+}
+
+#section-landscape {
+  background-color: #6FF77F;
+  transition: 400ms;
+}
+
+#section-stone {
+  background-color: #20891B;
+}
+
+#section-brick {
+  background-color: #49F451;
+}
+
+#section-artificial {
+  background-color: #B2E87E;
+}
+
+#section-water {
+  background-color: #01FF9C;
+}

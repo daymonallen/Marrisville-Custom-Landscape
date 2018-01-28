@@ -1,0 +1,33 @@
+{
+  "name": "marrisville-custom-landscape",
+  "version": "1.0.0",
+  "description": "Website of Marrisville Custom Landscape",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "start": "browser-sync start --server --files '**/css.css, **/*.html, **/*.js !node_modules/**/*' --directory --port 3003 --browser \"C:\\Program Files\\Firefox Developer Edition\\firefox.exe\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daymonallen/Marrisville-Custom-Landscape.git"
+  },
+  "author": "Daymon Allen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daymonallen/Marrisville-Custom-Landscape/issues"
+  },
+  "homepage": "https://github.com/daymonallen/Marrisville-Custom-Landscape#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.10.1"
+  }
+}

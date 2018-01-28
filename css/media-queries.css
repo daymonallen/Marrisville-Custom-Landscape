@@ -1,0 +1,24 @@
+@media only screen and (max-width: 480px) {
+  #top-nav > ul > li {
+    display: none;
+  }
+  #side-menu {
+    display: block;
+  }
+  div.content-block {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  #navToggle {
+    display: none;
+  }
+  #side-menu {
+    display: none;
+  }
+  div.content-block {
+    /* views_primary | view A*/
+    width: 70%;
+  }
+}
