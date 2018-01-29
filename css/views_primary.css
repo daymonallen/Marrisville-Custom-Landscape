@@ -5,20 +5,26 @@
 }
 
 #view_a {
-  background: rgb(199,223,215);
-  background: -moz-linear-gradient(-45deg, rgba(199,223,215,1) 0%, rgba(27,181,127,1) 38%, rgba(22,146,103,1) 72%, rgba(16,110,77,1) 100%);
-  background: -webkit-linear-gradient(-45deg, rgba(199,223,215,1) 0%,rgba(27,181,127,1) 38%,rgba(22,146,103,1) 72%,rgba(16,110,77,1) 100%);
-  background: linear-gradient(135deg, rgba(199,223,215,1) 0%,rgba(27,181,127,1) 38%,rgba(22,146,103,1) 72%,rgba(16,110,77,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7dfd7', endColorstr='#106e4d',GradientType=1 );
+  /* background: rgb(199,223,215);
+  background: -moz-linear-gradient(-45deg, rgba(199,223,215,1) 0%, rgb(27, 181, 91) 38%, rgba(22,146,103,1) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(199,223,215,1) 0%,rgb(12, 117, 47) 38%,rgb(7, 100, 4) 100%);
+  background: linear-gradient(135deg, rgba(199,223,215,1) 0%,rgb(27, 181, 35) 38%,rgb(6, 78, 27) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7dfd7', endColorstr='#106e4d',GradientType=1 ); */
+background-image: url("../img/landscape_scene1.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+
 }
 
 .content-block {
-  background-color: rgba(49, 32, 32, .7);
+  background-color: rgba(7, 6, 6, 0.8);
   color: white;
   //width: 50%;
+  height: 50vh;
   transform: translateY(-50%);
   top: 50%;
   position: absolute;
+  box-shadow: 4px 4px 0 4px beige;
 }
 
 .content-body {

@@ -173,3 +173,40 @@
   background-color: #5A5A5A;
   box-shadow: 0px 0px 0px 2px rgb(214, 214, 214);
 }
+
+
+
+.base-corner {
+  display: block;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  transform: rotate(45deg);
+  background-color: #3D3C3C;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+}
+.footer-pos {
+  display: block;
+  position: fixed;
+  bottom: -100px;
+  right: -100px;
+  width: 200px;
+  height: 200px;
+}
+
+.base-corner > ul {
+  list-style-type: none;
+  margin-left: -24px;
+  margin-top: 44px;
+}
+.base-corner > ul > li {
+  margin-top: 18px;
+  text-align: left;
+}
+.base-corner > ul > li > a{
+  color: white;
+  text-decoration: none;
+}
+
