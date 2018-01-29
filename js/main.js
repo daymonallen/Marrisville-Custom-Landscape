@@ -11,16 +11,3 @@ function toggleNav() {
 
 
 
-
-
-/*
-let sectionStatus = 0;
-function sectionIn(el, pos) {
-	if (sectionStatus == 0) {
-	var elem = document.getElementById(el)
-	elem.style.display = pos
-	sectionStatus = 1
-} else if (sectionStatus == 1) {
-	el.style.marginLeft = none
-}
-*/

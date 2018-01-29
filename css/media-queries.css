@@ -1,4 +1,4 @@
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 640px) {
   #top-nav > ul > li {
     display: none;
   }
@@ -10,7 +10,7 @@
   }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 640px) {
   #navToggle {
     display: none;
   }
@@ -19,6 +19,6 @@
   }
   div.content-block {
     /* views_primary | view A*/
-    width: 50%;
+    width: 60%;
   }
 }
