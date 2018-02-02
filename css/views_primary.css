@@ -13,14 +13,14 @@
 background-image: url("../img/landscape_scene1.jpeg");
 background-repeat: no-repeat;
 background-size: cover;
-
+background-position: center;
 }
 
 .content-block {
   background-color: rgba(7, 6, 6, 0.8);
   color: white;
   //width: 50%;
-  height: 50vh;
+  //height: 50vh;
   transform: translateY(-50%);
   top: 50%;
   position: absolute;
@@ -39,7 +39,19 @@ background-size: cover;
 
 
 #view_b {
+  border-top: 8px solid black;
   background-color: blue;
+  background: rgb(199,223,215);
+  background: -moz-linear-gradient(-45deg, rgb(2, 5, 4) 0%, rgb(14, 78, 41) 38%, rgba(22,146,103,1) 100%);
+  background: -webkit-linear-gradient(-45deg, rgb(0, 0, 0) 0%,rgb(8, 59, 25) 38%,rgb(7, 100, 4) 100%);
+  background: linear-gradient(135deg, rgb(2, 5, 4) 0%,rgb(14, 87, 17) 38%,rgb(6, 78, 27) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c7dfd7', endColorstr='#106e4d',GradientType=1 );
+  background-image: url("../img/landscape_water.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: auto;   /*-- this is super fucking cool .. Note it for views!!! */
+padding-bottom: 30px;
 }
 
 #view_c {
@@ -51,6 +63,13 @@ background-size: cover;
 }
 
 /* ==== [[ Section Views ]]==== */
+
+/* .services-header {
+  margin-top: 60px;
+  text-align: center;
+} */
+
+
 
 /*test ===============
 */
@@ -100,7 +119,7 @@ background-size: cover;
   //position: absolute;
   height: 90vh;
   width: 100%;
-  top: 40px;
+  //top: 40px;
   z-index: 1;
   display: block;
   background-color: white;

@@ -8,6 +8,16 @@
   div.content-block {
     width: 100%;
   }
+  div.card-services {
+    margin-top: 14px;
+    margin-left: 0;
+    width: 90%;
+    font-size: .8em;
+  }
+  div.card-body {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media only screen and (min-width: 640px) {
@@ -20,5 +30,15 @@
   div.content-block {
     /* views_primary | view A*/
     width: 60%;
+  }
+  div.card-services {
+    margin-top: 100px;
+    //margin-left: 10px;
+  }
+  div.card-body {
+    //height: 230px;
+  }
+  #view_b {
+    height: 100vh;
   }
 }

@@ -1,5 +1,7 @@
 /* Page Layout ======================*/
 
+
+
 #wrapper {
 
   /* app wrapper */
@@ -15,4 +17,26 @@
   //background-color: green;
   height: 100%;
   box-sizing: border-box;
+}
+
+.col_4 {
+  float: left;
+  width: 40%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: darkgray;
+}
+.col_8 {
+  display: inline-block;
+  width: 60%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: lightgray;
+}
+.col_12 {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  //background-color: lightgray;
 }

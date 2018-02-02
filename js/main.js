@@ -1,3 +1,7 @@
+
+
+
+
 let navStatus = 0;
 function toggleNav() {
 	if (navStatus == 0) {
@@ -10,4 +14,6 @@ function toggleNav() {
 }
 
 
+
+// on click of one of tabs
 
